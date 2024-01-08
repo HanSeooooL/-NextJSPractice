@@ -149,7 +149,7 @@
 
 #### Table Design(Schema Level)
 
-수행 프로젝트(Projects) 
+1. 수행 프로젝트(Projects) 
     - 프로젝트 식별번호(project_ID) not null, PK
     - 제목(title) not null
     - 부제(substitle)
@@ -160,7 +160,7 @@
     - 소스코드(Code) not null
 
 
-대내(외)활동(Extracurricular activities) 
+2. 대내(외)활동(Extracurricular activities) 
     - 대내(외)활동 식별번호(event_ID) not null, PK
     - 행사명(event_name) not null
     - 주관 기관(event_host) not null
@@ -170,7 +170,7 @@
     - 연관 프로젝트(Relation_Project) FK reference by Project.Project_ID
 
 
-경력(career) 
+3. 경력(career) 
     - 경력 식별번호(career_ID) not null, PK
     - 직장명(workplace_name) not null
     - 근무 시작일(Work_start) not null
@@ -179,18 +179,18 @@
     - 담당업무(Responsibilities) not null
 
 
-자격증(certificate) 
+4. 자격증(certificate) 
     - 자격명(certificate_name) not null
     - 취득일자(certificated_date) not null
     - 발급기관(issuing_agency) not null
 
 
-어학 자격증(language_certificate) 
+5. 어학 자격증(language_certificate) 
     - 어학시험명(lang_certi_name) not null
     - 점수(lang_score) not null
     - 취득일자(lang_certi_date) not null
 
-학력(education) 
+6. 학력(education) 
     - 학위(degree) not null
     - 전공(education_depart.) not null
     - 수학구분(study_classification) not null
@@ -199,6 +199,6 @@
     - 졸업(예정)일자(graduation_date) not null
 
 
-연락처(Contact) 
+7. 연락처(Contact) 
     - 구분(Contact_Classification) not null
     - 내용(address) not null
