@@ -202,3 +202,7 @@
 7. 연락처(Contact) 
     - 구분(Contact_Classification) not null
     - 내용(address) not null
+
+
+이력서생성기능
+- 일정한 템플릿을 먼저 만들어 놓아야 한다.
